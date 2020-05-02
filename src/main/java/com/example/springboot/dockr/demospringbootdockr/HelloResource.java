@@ -10,6 +10,6 @@ public class HelloResource {
 
 	@GetMapping
 	public String hello() {
-		return "Hello from java App running on docker containers";
+		return "Hello from java App running on docker containers v2";
 	}
 }
